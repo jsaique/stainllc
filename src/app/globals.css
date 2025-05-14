@@ -13,3 +13,11 @@
 .navi {
   @apply fixed top-0 left-0 w-full;
 }
+
+.line {
+  @apply overflow-hidden;
+}
+
+.word {
+  @apply translate-y-full;
+}
