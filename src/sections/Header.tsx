@@ -105,7 +105,7 @@ const Header: FC = () => {
     navAnimate,
   ]);
 
-  const handleClickMobileNav = (e: MouseEvent<HTMLAnchorElement>) => {
+  const handleClickMobileNav = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     setIsOpen(false);
 
